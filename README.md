@@ -44,7 +44,8 @@ streamlit run app.py
 ```
 This command will start the application.
 
-Here are some Search results:
+  
+# Here are some Search results:
 * .
  ![Strawberry Ice Cream](Data/strawberry_ice_cream.png)
 
