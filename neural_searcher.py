@@ -3,11 +3,12 @@ import os
 from qdrant_client import QdrantClient
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
-os.environ['QDRANT_HOST'] ='https://c63a6199-4ac0-445f-bf16-557e827a0809.us-east4-0.gcp.cloud.qdrant.io:6333'
-os.environ['QDRANT_API_KEY'] ='Vudwc_mFTJvHgqWyfrAeUt9exdWrv1Vezc3iGEnscxKcZGqzynfPZw'
+os.environ['QDRANT_HOST'] ="YOUR_QDRANT_HOST_URL"
+os.environ['QDRANT_API_KEY'] ="YOUR_QDRANT_API_KEY"
 COLLECTION_NAME="bigbasket_vectors"
 vector_field_name="bigbasket_vectors_field"
-# class sentencetransformer searcher
+
+# https://qdrant.tech/documentation/concepts/filtering/
 class NeuralSearcher:
     def __init__(self, collection_name):
         self.collection_name = collection_name
