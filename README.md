@@ -43,3 +43,10 @@ you can run the app using the following command:
 streamlit run app.py
 ```
 This command will start the application.
+
+Here are some Search results:
+* .
+ ![Strawberry Ice Cream](Data/strawberry_ice_cream.png)
+
+* .
+ ![toothpaste](Data/toothpaste.png)
