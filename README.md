@@ -31,4 +31,6 @@ make sure you create neural_Sercher.py in your env locally
 
 # Integrating with FastAPI   
 To launch the Fast API service, execute the fastapi.py file in a separate terminal using the following command:  
-``` uvicorn run fastapi.py```
+```
+uvicorn run fastapi.py
+```
