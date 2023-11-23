@@ -26,7 +26,7 @@ Code to upload vector embeddings & answering queries through LLM can be found in
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1dvZ7N8OtfN_gBZYDKPvTiG5sfLO4Y-eo)  
 Vector Embeddings are now uploaded to Qdrant DB
 
-#Create a LLM searcher to be used in FASTAPI which answer queries from the Qdrant DB  
+# Create a LLM searcher to be used in FASTAPI which answer queries from the Qdrant DB  
 make sure you create neural_Sercher.py in your env locally  
 
 # Integrating with FastAPI   
