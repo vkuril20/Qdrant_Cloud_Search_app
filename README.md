@@ -8,5 +8,8 @@ Before using this app , make sure you have the following:
 * Python 3.x installed on your system.
 * An active Qdrant Managed Cloud Service account.
 * Your Qdrant Managed Cloud Service credentials.
-Install the required Python packages using pip:
-pip install -r requirements.txt
+  
+Install the required Python packages using pip:  
+'''
+pip install -r requirements.txt  
+'''
