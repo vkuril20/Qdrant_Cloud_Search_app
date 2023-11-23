@@ -1,5 +1,5 @@
 # Query_Search_BigBasket
-# with Qdrant, LLM, FastAPI & Streamlit
+# using Qdrant, LLM, FastAPI & Streamlit
 This repository contains an Web app with a graphical user interface (GUI) that connects to a remote database hosted in Qdrant's Managed Cloud Service and answer Query Searches from [Bigbasket Products Dataset](https://chaabiv2.s3.ap-south-1.amazonaws.com/hiring/bigBasketProducts.csv) 
 
 # Requirements
