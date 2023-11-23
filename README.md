@@ -1,5 +1,5 @@
 # Query_Search_BigBasket
-# with Qdrant + LLM + FastAPI + Streamlit
+# with Qdrant, LLM, FastAPI & Streamlit
 This repository contains a code for Query Search in [Bigbasket Products Dataset](https://chaabiv2.s3.ap-south-1.amazonaws.com/hiring/bigBasketProducts.csv) 
 .
 # Requirements
@@ -32,5 +32,14 @@ make sure you create neural_Sercher.py in your env locally
 # Integrating with FastAPI   
 To launch the Fast API service, execute the fastapi.py file in a separate terminal using the following command:  
 ```
-uvicorn run fastapi.py
+uvicorn service:app --reload
 ```
+After a successful upload, neural search API will be available at  [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)  
+
+# Launch the streamlit Web app  
+This streamlit app uses FastAPI url as the backend api_key  
+you can run the app using the following command:  
+```
+streamlit run app.py
+```
+This command will start the application.
