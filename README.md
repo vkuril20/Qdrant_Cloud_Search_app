@@ -13,7 +13,11 @@ Install the required Python packages using pip:
 ```
 pip install -r requirements.txt  
 ```
+# Process Dataset & Implement Vector Embeddings
 To perform search on the dataset you have to convert the given csv_dataset into vectors  
-Code for initial data preparation could be found in [Colab Notebook](https://colab.research.google.com/drive/1Q2SPPmwlWGvq_VXBK0XSQqgFCza-Ulxq)  
+Code for initial vector preparation could be found in [Colab Notebook](https://colab.research.google.com/drive/1Q2SPPmwlWGvq_VXBK0XSQqgFCza-Ulxq)  
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Q2SPPmwlWGvq_VXBK0XSQqgFCza-Ulxq)  
-After evaluating Colab you should get  encoded vectors in file ./data/vectors_bigbasket.npy
+After evaluating Colab you should get  encoded vectors in file ./data/vectors_bigbasket.npy  
+
+# Upload the Vector Embeddings into Qdrant DB & Implement an LLM on the DB to answer contextual queries  
+To Implement LLM on the Qdrant DB you have to upload the vector Embeddings downloaded from the [Previous Colab Notebook](https://colab.research.google.com/drive/1Q2SPPmwlWGvq_VXBK0XSQqgFCza-Ulxq) into the Qdrant DB
