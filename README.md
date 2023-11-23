@@ -10,6 +10,6 @@ Before using this app , make sure you have the following:
 * Your Qdrant Managed Cloud Service credentials.
   
 Install the required Python packages using pip:  
-'''
+```
 pip install -r requirements.txt  
-'''
+```
