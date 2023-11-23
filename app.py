@@ -4,7 +4,7 @@ import pandas as pd
 import time
 
 # Set the URL for the backend service (FastAPI server)
-api_url = "http://127.0.0.1:8000/api/search"
+api_url = "http://127.0.0.1:8000"
 
 # Class for a Streamlit web app focused on searching products
 class ProductFinder:
