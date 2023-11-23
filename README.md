@@ -13,3 +13,6 @@ Install the required Python packages using pip:
 ```
 pip install -r requirements.txt  
 ```
+To perform search on the dataset you have to convert the given csv_dataset into vectors  
+Code for initial data preparation could be found in [Colab Notebook](https://colab.research.google.com/drive/1Q2SPPmwlWGvq_VXBK0XSQqgFCza-Ulxq)  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://colab.research.google.com/github/weiji14/deepbedmap/](https://colab.research.google.com/drive/1Q2SPPmwlWGvq_VXBK0XSQqgFCza-Ulxq)]
